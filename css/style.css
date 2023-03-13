@@ -1,0 +1,44 @@
+* {
+    padding: 0%;
+    margin: 0%;
+
+}
+
+                                        /* Adaptação no desktop */
+    body {
+        background-color: rgb(0, 0, 0);
+    }
+
+    .little_dragon {
+        display: flex;
+        justify-content: center;
+        margin-top: 5%;
+        color: rgb(55, 255, 0);
+    }
+
+    .sem_ideia {
+        display: flex;
+        font-family: Arial, Helvetica, sans-serif; 
+        text-transform: uppercase;
+        margin-top: 1.5%;
+        justify-content: center; 
+        color: red;
+    }
+                                         /* Fim da Adaptação pra pc */
+
+                                         /* Adaptação no celular */
+@media screen and (max-width: 700px) {
+    body {
+        background-color: black;
+    }
+
+    
+    .little_dragon {
+        display: flex;
+        justify-content: center;
+        margin-top: 5%;
+        color: aqua;
+    }
+
+}
+                                        /* Fim da Adaptação no celular */
