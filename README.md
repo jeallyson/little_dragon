@@ -1,5 +1,4 @@
 # little_dragon
-
-shuuu! 
+- Arte ASCII.
 
 https://jeallyson.github.io/little_dragon/
