@@ -1,3 +1,5 @@
 # little_dragon
 
-chuuuuu 
+shuuu! 
+
+https://jeallyson.github.io/little_dragon/
