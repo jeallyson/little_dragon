@@ -7,22 +7,28 @@
                                         /* Adaptação no desktop */
     body {
         background-color: rgb(0, 0, 0);
+        color: rgb(0, 255, 17);
     }
 
     .little_dragon {
         display: flex;
         justify-content: center;
         margin-top: 5%;
-        color: rgb(55, 255, 0);
     }
 
-    .sem_ideia {
-        display: flex;
-        font-family: Arial, Helvetica, sans-serif; 
-        text-transform: uppercase;
+    .container{
         margin-top: 1.5%;
-        justify-content: center; 
-        color: red;
+        display: flex;
+        height: auto;
+        width: auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 18px;
+    }
+    .gif {
+        width: 10px;
+        margin-top: 1.8%;
     }
                                          /* Fim da Adaptação pra pc */
 
@@ -30,14 +36,23 @@
 @media screen and (max-width: 700px) {
     body {
         background-color: black;
+        color: red;
     }
 
-    
+    .container{
+        display: flex;
+        height: auto;
+        width: auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
     .little_dragon {
         display: flex;
         justify-content: center;
         margin-top: 5%;
-        color: aqua;
     }
 
 }
